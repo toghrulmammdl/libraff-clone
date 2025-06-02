@@ -2,6 +2,10 @@ import React from 'react'
 import styles from "../../styles/Header.module.css"
 import logoLibraff from "../../assets/images/logo.png"
 import Catalogue from '../Buttons/Catalogue'
+import SearchBar from '../Forms/SearchBar'
+import LanguageSelection from '../Dropdown/LanguageSelection'
+import Profile from '../Dropdown/Profile'
+
 const Header = () => {
   return (
     <header>
@@ -10,9 +14,9 @@ const Header = () => {
                 <img src={logoLibraff} alt="" className={styles.logo}/>
             </div>
             <div><Catalogue /></div>
-            <div>SEARCH</div>
-            <div>LANGUAGE SELECTION</div>
-            <div>PROFILE</div>
+            <div><SearchBar /></div>
+            <div><LanguageSelection /></div>
+            <div><Profile /></div>
             <div>WHISHLIST</div>
             <div>CART</div>
         </div>

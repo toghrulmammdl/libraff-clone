@@ -1,4 +1,4 @@
-button{
+.catalog-button{
     width: 140px;
     background-color: rgb(239, 51, 64);
     color: white;
@@ -7,4 +7,7 @@ button{
     height: 44px;
     border-radius: 22px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
