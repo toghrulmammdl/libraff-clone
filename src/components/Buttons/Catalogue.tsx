@@ -6,7 +6,7 @@ const Catalogue = () => {
   return (
     <>
         <button className={styles["catalog-button"]}>
-          <img src={catalogIcon} alt="" width={24} color="white"/>
+          <img src={catalogIcon} alt="kataloq" className={styles["catalog-icon"]} color="white"/>
           <span>Kataloq</span>
         </button>
     </>
