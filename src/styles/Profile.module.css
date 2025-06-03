@@ -1,5 +1,13 @@
 .auth-menu{
     background-color: rgb(244, 246, 252);
     border: 1px solid  rgb(244, 246, 252);
-    border-radius: 12px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    font-weight: bolder;
+    
+} span{
+    margin-left: 6px;
 }
