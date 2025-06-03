@@ -1,5 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import styles from "../../styles/Profile.module.css"
+
+import { FaRegCircleUser } from "react-icons/fa6";
+import { IoIosArrowDown } from "react-icons/io";
+
 const Profile = () => {
     const [opened, setOpened] = useState(false);
       const [selectedLang, setSelectedLang] = useState('AZ');
@@ -27,7 +31,7 @@ const Profile = () => {
       }, []);
   return (
     <div className={styles["auth-menu"]}>
-        Hesabım
+        <FaRegCircleUser /><span>Hesabım</span><IoIosArrowDown />
     </div>
   )
 }
